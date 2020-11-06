@@ -12,22 +12,22 @@ body {
   font-style: normal;
 	font-family: Geneva,Arial;
   font-size: large;
-  background-color: antiquewhite;
+  background-color: white;
 
 }
 
 /* TODO: Add property:value pairs to set the color
 of the h1 element and make its text centered. Look at the index.html to see what the h1 element creates on the page*/
 h1 {
-   color: teal;
-   text-align: center;
+   color: rgba(212, 126, 212, 0.212);
+   text-align: left;
 }
 
 /* TODO: Add property:value pairs to set the color
 of the h3 element and make its text centered. Look at the index.html to see what the h3 element creates on the page*/
 h3 {
-  color: teal;
-  text-align: center;
+  color: black;
+  text-align:left;
 
 }
 
@@ -37,7 +37,7 @@ header {
   width:390px;
   height: 100px;
   background-color:white;
-  text-align: center;
+  text-align: left;
 }
 
 /* TODO: Add property:value pairs to set the width and height of the footer element. Give it a background color. add a border, and center its text.
@@ -47,7 +47,7 @@ footer {
   width: 500px;
   height: 60px; 
   border: 1px solid #000000;
-  background-color: beige;
+  background-color: white;
   text-align: center;
 }
 
@@ -55,7 +55,7 @@ footer {
 section {
   width:950px;
   height: 220px;
-  background-color: beige;
+  background-color: white;
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ nav {
 	float: left;
 	font-family: Geneva,Arial;
 	border: 1px solid #000000;
-	background-color: #D0DBF0;
+	background-color: white;
 }
 
 nav ul {
@@ -83,7 +83,7 @@ nav li {
 nav li a {
 	float: left;
 	text-align: center;
-	border-right: 2px solid #00DBF0;
+	border-right: 2px solid rgba(247, 253, 253, 0);
   width: 100px;  
   font-size: 14px; 
 	padding: 0px 10px;
